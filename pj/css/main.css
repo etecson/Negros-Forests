@@ -1,0 +1,70 @@
+/* BG SIZE 1177 x 455 */
+
+#brand-name {
+  color: #fff;
+  font-size: 60px;
+  font-family: 'Georgia', serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+img.bg {
+  /* Set up positioning */
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#overlay{
+  position: absolute;
+  top: 0;
+  background:#000;
+  opacity: 0.5;
+}
+.dark-bg{
+  background-color: #ecf0f1;
+}
+.light-bg{
+  background-color: #ecf0f1;
+}/*
+.text-white{
+  color: #E6E6FA;
+}*/
+nav.no-margin-bottom{
+  margin-bottom: 0px; 
+}
+
+/*sizing*/
+.hr-sm{
+  width: 20%;
+}
+.xs-margin-top{
+  margin-top: 10px;
+}
+.lg-padding-top{
+  padding-top: 60px;
+}
+.lg-padding-bottom{
+  padding-bottom: 60px;
+}
+
+
+/*Center nav elements*/
+nav.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+nav.navbar .navbar-collapse {
+    text-align: center;
+}
+
+footer{
+  height: 100px;
+  background-color: #111;
+}
+
+#news-title{
+  font-size: 60px;  
+  font-family: 'Georgia', serif;
+}
