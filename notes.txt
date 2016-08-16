@@ -1,0 +1,15 @@
+outline:
+Home
+About Us
+Get Involved > support
+Press Release
+Gallery
+Contact Us
+
+
+palette links:
+https://coolors.co/171219-f3c672-fdfffc-698f3f-bf4e30
+https://coolors.co/1c0f13-224746-b7cece-f9e7e7-e9d758
+
+affix:
+http://www.w3schools.com/bootstrap/bootstrap_affix.asp
