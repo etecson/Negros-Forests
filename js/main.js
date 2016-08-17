@@ -1,15 +1,19 @@
-window.addEventListener("resize", positionNavbar);
-document.addEventListener("load",positionNavbar());
 
-var height = document.getElementById("banner").height,
-width = document.getElementById("banner").width;
+$(document).ready(function(){
+	window.addEventListener("resize", runChanges());
+	document.addEventListener("load",runChanges());
 
-function positionNavbar() {
 	var height = document.getElementById("banner").height,
-		width = document.getElementById("banner").width;
+	width = document.getElementById("banner").width;
 
-	document.querySelector(".navbar").style.marginTop = height -5 + "px";
-	document.querySelector("#brand-name").style.top = height - 210 + "px";
-	document.querySelector('#overlay').style.height = height + "px";
-	document.querySelector('#overlay').style.width = width + "px";
-}
+	function runChanges() {
+		var height = document.getElementById("banner").height,
+			width = document.getElementById("banner").width;
+
+		document.querySelector(".navbar").style.marginTop = height -5 + "px";
+		document.querySelector("#brand-name").style.top = height - 210 + "px";
+		document.querySelector('#overlay').style.height = height + "px";
+		document.querySelector('#overlay').style.width = width + "px";
+	}
+});
+
